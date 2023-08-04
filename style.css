@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  display: inline-block;
+  align-items: center;
+}
+
+nav {
+  padding-left: 350px;
+  padding-top: 53px;
+  max-height: 65px;
+  max-width: 1220px;
+}
