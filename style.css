@@ -41,16 +41,28 @@ nav h1 {
 
 .content {
   padding-left: 200px;
+  align-items: center;
 }
 
 .content a {
   margin-left: 40px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: rgba(55, 57, 63, 1);
 }
 
 .content button {
   margin-left: 40px;
   background-color: rgba(107, 119, 229, 1);
   color: rgba(255, 255, 255, 1);
+  height: 65px;
+  font-family: "Cabin";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.87px;
+  align-items: center;
 }
 
 main {
@@ -95,7 +107,54 @@ main .container::after {
 main .column {
   float: left;
   width: 33.33%;
-  padding-left: 41px;
+  padding: 31px;
   box-sizing: border-box;
   background-color: rgba(244, 244, 244, 1);
+}
+
+.column h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31.75px;
+  align-items: center;
+  color: rgba(55, 57, 63, 1);
+}
+
+.column p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.31px;
+  align-items: center;
+  color: rgba(125, 125, 125, 1);
+  padding-top: 37px;
+}
+
+main .group1,
+.group2,
+.group3 {
+  text-align: center;
+}
+
+.table {
+  padding: 58px 43px 58px 43px;
+  column-gap: normal;
+}
+
+.container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 557px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -25%;
+}
+
+.overlay {
+  position: absolute;
+  margin-top: 162px;
 }
