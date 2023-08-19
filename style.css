@@ -3,8 +3,13 @@
   text-decoration: none;
 }
 
+font-family: "Cabin", sans-serif;
+font-family: "Inter", sans-serif;
+font-family: "Poppins", sans-serif;
+
 header {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -13,4 +18,84 @@ nav {
   padding-top: 53px;
   max-height: 65px;
   max-width: 1220px;
+}
+
+nav h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content {
+  padding-left: 200px;
+}
+
+.content a {
+  margin-left: 40px;
+}
+
+.content button {
+  margin-left: 40px;
+  background-color: rgba(107, 119, 229, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+main {
+  max-width: 1220px;
+  margin-top: 136px;
+  margin-left: 350px;
+  row-gap: 41px;
+}
+
+main .title {
+  height: 86px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .description {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: rgba(55, 57, 63, 1);
+}
+
+main h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.4px;
+  align-items: center;
+  color: rgba(55, 57, 63, 1);
+}
+
+main .container::after {
+  height: 383px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+main .column {
+  float: left;
+  width: 33.33%;
+  padding-left: 41px;
+  box-sizing: border-box;
+  background-color: rgba(244, 244, 244, 1);
 }

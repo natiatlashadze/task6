@@ -5,33 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <div class="logo">
-          <a href="index.html"
-            ><img src="assets/logos/Icon.png" alt="logo"
-          /></a>
-          <h1>WhiteCollar</h1>
-        </div>
-        <div class="content">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Pages</a>
-          <a href="#">Services</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
-          <button>Get Consulting</button>
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="assets/logos/Icon.svg" alt="logo"
+            /></a>
+            <h1>WhiteCollar</h1>
+          </div>
+          <div class="content">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Pages</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+            <button>Get Consulting</button>
+          </div>
         </div>
       </nav>
     </header>
     <main>
       <div class="title">
-        <h3>Work Process</h3>
+        <p class="description">Work Process</p>
         <h1>How We Work</h1>
-      </div>
-      <div class="content">
+      </div class="container">
+      <div class="column">
         <div class="group1">
           <h2>Make Appointment</h2>
           <p>
@@ -43,7 +51,7 @@
           <img src="assets/logos/Icon1.svg" alt="date" />
         </div>
       </div>
-      <div class="content">
+      <div class="column">
         <div class="group2">
           <h2>Consultation</h2>
           <p>
@@ -55,7 +63,7 @@
           <img src="assets/logos/Icon2.svg" alt="puzzle" />
         </div>
       </div>
-      <div class="content">
+      <div class="column">
         <div class="group3">
           <h2>Enjoy the Service</h2>
           <p>
@@ -67,19 +75,19 @@
           <img src="assets/logos/Icon3.svg" alt="puzzle" />
         </div>
       </div>
-      <div class="container">
-        <img src="assets/Image.jpg" alt="green background" />
-        <div>
-          <h3>Short Video</h3>
-          <h1>Our Presentation</h1>
-          <p>
-            Collaboratively administrate channels whereas virtual tailers <br />
-            predominate procedures reliable supply chains.
-          </p>
-          <button class="play">Play</button>
-        </div>
-      </div>
     </main>
+    <div class="container">
+      <img src="assets/Image.jpg" alt="green background" />
+      <div>
+        <h3>Short Video</h3>
+        <h1>Our Presentation</h1>
+        <p>
+          Collaboratively administrate channels whereas virtual tailers <br />
+          predominate procedures reliable supply chains.
+        </p>
+        <button class="play">Play</button>
+      </div>
+    </div>
     <footer>
       <div>
         <h3>Our Team</h3>
