@@ -112,6 +112,7 @@ main .column {
   padding: 31px;
   box-sizing: border-box;
   background-color: rgba(244, 244, 244, 1);
+  white-space: 10px;
 }
 
 .column h2 {
@@ -215,7 +216,7 @@ footer .title {
   height: 86px;
   padding: 16px;
   align-items: center;
-  margin-left: 25%;
+  margin-left: 436px;
   padding-bottom: 41px;
 }
 
